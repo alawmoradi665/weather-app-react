@@ -19,7 +19,7 @@ const useForecast = () => {
         const { data } = await axios(`${REQUEST_URL}/search`, { params: { query: location } });
 
         if (!data || data.length === 0) {
-            setError('There is no such location');
+            setError("Please enter a city.");
             setLoading(false);
             return;
         }
@@ -31,7 +31,7 @@ const useForecast = () => {
         const { data } = await axios(`${REQUEST_URL}/${woeid}`);
 
         if (!data || data.length === 0) {
-            setError('Something went wrong');
+            setError('Woups! Something went wrong - please try again.');
             setLoading(false);
             return;
         }
