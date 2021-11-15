@@ -1,4 +1,9 @@
-## Weather app 
+## Weather app tutorial
+
+I have followed the tutorial linked below to create this weather app:
+https://www.youtube.com/watch?v=qsSCfN-PZF4&ab_channel=danascript
+
+Scroll down to see tech stack and further information
 
 
 # Weather API - ReactJS Version
