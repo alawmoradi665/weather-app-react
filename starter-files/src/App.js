@@ -1,5 +1,6 @@
 import Page from './components/Page';
 
+
 function App() {
     return (
         <div className="App">
@@ -7,5 +8,7 @@ function App() {
         </div>
     );
 }
+
+
 
 export default App;
